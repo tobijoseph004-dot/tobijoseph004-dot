@@ -59,13 +59,13 @@ The project combines data preparation, exysploratory analysis, machine learnind 
 
 Tech: Python | Pandas | Scikit-learn | Streamlit | Joblib
 
-#[View Project](tobijoseph004-dot/Safe_Site)
+# [View Project](https://github.com/tobijoseph004-dot/Safe_Site)
 
 ---
 
 Professional Focus
 
-Data Analysis • Data Visualisation • Data Management • Research • Data Storytelling. Public Health • Health Promotion • Technology
+Data Analysis • Data Visualisation • Data Management • Research • Data Storytelling. Public Health • Health Promotion •Technology
 
 I use data to find patterns, explain what is happening, and communicate insights that can support better decisions.
 
