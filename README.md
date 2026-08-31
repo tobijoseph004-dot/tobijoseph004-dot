@@ -49,7 +49,7 @@ A Python-based movie ticket booking application developed to demonstrate applica
 
 Tech: Python | Tkinter
 
-#[View Project](tobijoseph004-dot/movie-ticket-booking-system)
+# [View Project](tobijoseph004-dot/movie-ticket-booking-system)
 ---
 
 🦺 Construction Occupational Risk Prediction
@@ -59,7 +59,7 @@ The project combines data preparation, exysploratory analysis, machine learning 
 
 Tech: Python | Pandas | Scikit-learn | Streamlit | Joblib
 
-#[View Project](tobijoseph004-dot/Safe_site)
+#[View Project](tobijoseph004-dot/Safe_Site)
 
 ---
 
