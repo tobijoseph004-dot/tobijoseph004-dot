@@ -47,27 +47,25 @@ Featured Projects
 
 A Python-based movie ticket booking application developed to demonstrate application development, programming logic and user interaction.
 
-Tech: Python | Tkinter | [Add database/other technologies]
+Tech: Python | Tkinter
 
-"View Project →" (#)
-
+#[View Project](tobijoseph004-dot/movie-ticket-booking-system)
 ---
 
 🦺 Construction Occupational Risk Prediction
 
 A machine-learning application that analyses workplace incident characteristics to predict whether a construction-related incident is likely to be fatal or non-fatal.
-
-The project combines data preparation, exploratory analysis, machine learning and an interactive Streamlit interface to demonstrate how data can support workplace safety assessment.
+The project combines data preparation, exysploratory analysis, machine learning and an interactiv(e Streamlit interface to demonstrate how data can support workplace safety assessment.
 
 Tech: Python | Pandas | Scikit-learn | Streamlit | Joblib
 
-"View Project →" (#)
+#[View Project](tobijoseph004-dot/Safe_site)
 
 ---
 
 Professional Focus
 
-Data Analysis • Data Visualisation • Data Management • Research • Data Storytelling • Public Health • Health Promotion • Technology
+Data Analysis • Data Visualisation • Data Management • Research • Data Storytelling. Public Health • Health Promotion • Technology
 
 I use data to find patterns, explain what is happening, and communicate insights that can support better decisions.
 
@@ -77,11 +75,11 @@ Let's Connect
 
 I'm open to opportunities involving data analysis, research, data visualisation, data management, reporting, health data, education, and technology-driven projects.
 
-📧 Email: [Your Email]
+📧 Email: [tobijoseph004@gmail.com]
 
-💼 LinkedIn: [Your LinkedIn]
+💼 LinkedIn: [Oluwatobiloba Joseph]
 
-🌐 Portfolio: Coming Soon
+
 
 
 
