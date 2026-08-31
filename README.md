@@ -49,13 +49,13 @@ A Python-based movie ticket booking application developed to demonstrate applica
 
 Tech: Python | Tkinter
 
-# [View Project](tobijoseph004-dot/movie-ticket-booking-system)
+# [View Project](https://github.com/tobijoseph004-dot/movie-ticket-booking-system)
 ---
 
 🦺 Construction Occupational Risk Prediction
 
-A machine-learning application that analyses workplace incident characteristics to predict whether a construction-related incident is likely to be fatal or non-fatal.
-The project combines data preparation, exysploratory analysis, machine learning and an interactiv(e Streamlit interface to demonstrate how data can support workplace safety assessment.
+A machine-learning application that analyses workplace incident characteristics to predict whether a construction-related incident is likely to be f or non-ftal.
+The project combines data preparation, exysploratory analysis, machine learnind an interactiv(e Streamlit interface to demonstrate hota can support workplace safety assessment.
 
 Tech: Python | Pandas | Scikit-learn | Streamlit | Joblib
 
