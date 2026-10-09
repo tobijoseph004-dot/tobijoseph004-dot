@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Independent aviation analytics project exploring route performance, operational reliability, and passenger experience." />
+  <title>Aviation Route & Operational Performance | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#top"><span class="brand-mark">A</span><span>ANALYTICS<span class="brand-light"> / PORTFOLIO</span></span></a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a><a href="#analysis">Analysis</a><a href="#method">Method</a><a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="#analysis">Explore project <span>↗</span></a>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> INDEPENDENT AVIATION ANALYTICS PROJECT</div>
+        <h1>Turning flight data<br>into <em>better decisions.</em></h1>
+        <p class="hero-lede">An analytical exploration of airline route performance, operational reliability and passenger experience—framed around the questions that matter as regional carriers grow.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#analysis">Explore the analysis <span>↓</span></a>
+          <a class="button button-secondary" href="https://github.com/tobijoseph004-dot" target="_blank" rel="noreferrer">View GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">FOCUS</span><strong>Route & operations</strong></div>
+          <div><span class="meta-label">TOOLS</span><strong>Python · Excel · BI</strong></div>
+          <div><span class="meta-label">APPROACH</span><strong>Evidence-led analysis</strong></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Illustrative flight route visual">
+        <div class="visual-topline"><span>FLIGHT OPERATIONS</span><span class="live-pill"><i></i> PROJECT PREVIEW</span></div>
+        <div class="route-map">
+          <div class="map-grid"></div>
+          <svg viewBox="0 0 560 360" role="img" aria-label="Illustrative flight route lines">
+            <defs><linearGradient id="routeGradient" x1="0" x2="1"><stop offset="0%" stop-color="#7bd9c4"/><stop offset="100%" stop-color="#f4b35e"/></linearGradient></defs>
+            <path d="M85 250 Q220 65 340 150 T500 95" class="route-line route-a"/>
+            <path d="M85 250 Q250 310 390 230 T500 95" class="route-line route-b"/>
+            <path d="M190 95 Q270 170 340 150 T390 230" class="route-line route-c"/>
+            <circle cx="85" cy="250" r="7" class="route-node"/><circle cx="190" cy="95" r="6" class="route-node muted"/><circle cx="340" cy="150" r="7" class="route-node"/><circle cx="390" cy="230" r="6" class="route-node muted"/><circle cx="500" cy="95" r="7" class="route-node"/>
+            <text x="55" y="278">LAGOS</text><text x="160" y="72">ABUJA</text><text x="315" y="128">HUB</text><text x="360" y="257">REGIONAL</text><text x="454" y="70">DEST.</text>
+          </svg>
+          <div class="map-caption"><span class="caption-symbol">↗</span><span>ROUTE NETWORK THINKING</span></div>
+        </div>
+        <div class="visual-bottom"><div><span class="small-muted">PROJECT QUESTION</span><strong>Where do operational patterns emerge?</strong></div><span class="visual-index">01 / 04</span></div>
+      </div>
+    </section>
+
+    <section class="notice" role="note">
+      <span class="notice-icon">i</span>
+      <p><strong>Research transparency:</strong> This page is a presentation prototype. Charts marked “illustrative preview” use example values, not measured results. The final analysis will use a documented public aviation dataset. It is independent research and does not use ValueJet’s internal data or represent its performance.</p>
+    </section>
+
+    <section class="section intro-section" id="overview">
+      <div class="section-kicker">01 / BUSINESS CONTEXT</div>
+      <div class="intro-grid">
+        <div><h2>Questions shaped by<br>real airline priorities.</h2></div>
+        <div class="intro-text"><p>As airlines add capacity and expand routes, understanding operational reliability becomes increasingly important. This project explores how public flight data can be used to examine route patterns, delay behaviour and the operational conditions that may influence a passenger’s journey.</p><p>The analysis is inspired by publicly communicated priorities in the regional aviation market, including growth, customer experience and reliable operations. It does not assume that any specific problem exists at ValueJet.</p></div>
+      </div>
+      <div class="priority-grid">
+        <article class="priority-card"><span class="priority-number">01</span><div class="priority-icon">↗</div><h3>Route performance</h3><p>Compare flight volume, punctuality and delay patterns across airport pairs.</p><span class="card-tag">ROUTES & NETWORKS</span></article>
+        <article class="priority-card"><span class="priority-number">02</span><div class="priority-icon">◷</div><h3>Operational reliability</h3><p>Explore how departure time, seasonality and delay categories relate to performance.</p><span class="card-tag">FLIGHT OPERATIONS</span></article>
+        <article class="priority-card"><span class="priority-number">03</span><div class="priority-icon">◇</div><h3>Passenger experience</h3><p>Examine operational measures that may affect journey predictability and service experience.</p><span class="card-tag">CUSTOMER EXPERIENCE</span></article>
+      </div>
+    </section>
+
+    <section class="section analysis-section" id="analysis">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / ANALYTICS PREVIEW</div><h2>From raw records<br>to useful signals.</h2></div>
+        <div class="section-heading-right"><span class="status-chip"><i></i> DEMO VISUALS</span><p>These visualisations demonstrate the planned dashboard layout only. They will be replaced with verified results after the dataset is downloaded, cleaned and analysed.</p></div>
+      </div>
+      <div class="kpi-grid">
+        <div class="kpi-card"><span class="kpi-label">FLIGHTS ANALYSED</span><strong>—</strong><span class="kpi-foot">Awaiting data processing</span></div>
+        <div class="kpi-card"><span class="kpi-label">ON-TIME RATE</span><strong>—</strong><span class="kpi-foot">Awaiting defined metric</span></div>
+        <div class="kpi-card"><span class="kpi-label">MEDIAN ARRIVAL DELAY</span><strong>—</strong><span class="kpi-foot">Awaiting data processing</span></div>
+        <div class="kpi-card"><span class="kpi-label">ROUTES COVERED</span><strong>—</strong><span class="kpi-foot">Awaiting data processing</span></div>
+      </div>
+      <div class="charts-grid">
+        <article class="chart-card chart-wide">
+          <div class="chart-header"><div><span class="chart-label">01 / TIME SERIES</span><h3>Monthly operational performance</h3></div><span class="chart-unit">ILLUSTRATIVE PREVIEW</span></div>
+          <p class="chart-description">Planned view: compare the share of flights arriving on time with average arrival delay across the year.</p>
+          <div class="chart-wrap"><canvas id="monthlyChart"></canvas></div>
+        </article>
+        <article class="chart-card">
+          <div class="chart-header"><div><span class="chart-label">02 / COMPARISON</span><h3>Delay by departure window</h3></div><span class="chart-unit">EXAMPLE</span></div>
+          <p class="chart-description">Planned view: assess whether performance differs by scheduled departure period.</p>
+          <div class="chart-wrap chart-short"><canvas id="timeChart"></canvas></div>
+        </article>
+        <article class="chart-card">
+          <div class="chart-header"><div><span class="chart-label">03 / BREAKDOWN</span><h3>Delay categories</h3></div><span class="chart-unit">EXAMPLE</span></div>
+          <p class="chart-description">Planned view: understand the contribution of reported delay categories where data are available.</p>
+          <div class="chart-wrap chart-short"><canvas id="causeChart"></canvas></div>
+        </article>
+      </div>
+      <div class="chart-footnote"><span>ⓘ</span> Charts are mock-ups with illustrative data for design preview. They must not be cited as findings or attributed to ValueJet. Final figures will be added only after analysis of the selected dataset.</div>
+    </section>
+
+    <section class="section method-section" id="method">
+      <div class="section-kicker">03 / ANALYTICAL METHOD</div>
+      <div class="method-head"><h2>A transparent, reproducible workflow.</h2><p>The aim is not just to make charts. It is to document how the data was prepared, what the measures mean, and where the conclusions stop.</p></div>
+      <div class="workflow">
+        <div class="workflow-step"><span>01</span><div><h3>Source & scope</h3><p>Document source, reporting period, coverage and limitations.</p></div><b>DATA</b></div>
+        <div class="workflow-step"><span>02</span><div><h3>Clean & validate</h3><p>Inspect missing values, duplicates, outliers and inconsistent records.</p></div><b>PYTHON / PANDAS</b></div>
+        <div class="workflow-step"><span>03</span><div><h3>Analyse patterns</h3><p>Define metrics, compare groups and investigate time and route patterns.</p></div><b>PYTHON / NUMPY</b></div>
+        <div class="workflow-step"><span>04</span><div><h3>Present the evidence</h3><p>Build a concise Excel summary and an interactive BI dashboard.</p></div><b>EXCEL / POWER BI</b></div>
+        <div class="workflow-step"><span>05</span><div><h3>Interpret responsibly</h3><p>Translate results into practical questions, recommendations and next data needs.</p></div><b>BUSINESS THINKING</b></div>
+      </div>
+    </section>
+
+    <section class="section deliverables-section">
+      <div class="section-kicker">04 / PROJECT DELIVERABLES</div>
+      <h2>What the completed project will include.</h2>
+      <div class="deliverables-grid">
+        <div class="deliverable"><span class="deliverable-icon">⌘</span><div><h3>Python analysis</h3><p>Reproducible notebook covering data inspection, cleaning, feature creation and exploratory analysis.</p></div><span class="deliverable-status">IN PROGRESS</span></div>
+        <div class="deliverable"><span class="deliverable-icon">▦</span><div><h3>Excel workbook</h3><p>Analysis-ready tables, pivot summaries and charts for operational comparisons.</p></div><span class="deliverable-status">PLANNED</span></div>
+        <div class="deliverable"><span class="deliverable-icon">▤</span><div><h3>BI dashboard</h3><p>A filterable dashboard for performance trends, route comparisons and delay categories.</p></div><span class="deliverable-status">PLANNED</span></div>
+        <div class="deliverable"><span class="deliverable-icon">↗</span><div><h3>Business brief</h3><p>Key findings, limitations, implications and questions that would require airline-specific data.</p></div><span class="deliverable-status">PLANNED</span></div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="cta-orb"></div><div class="cta-content"><div class="section-kicker">LET'S CONNECT</div><h2>Curious about the question<br>behind the numbers?</h2><p>I’m building practical analytics work that connects data with business and operational decisions.</p><div class="cta-actions"><a class="button button-light" href="https://github.com/tobijoseph004-dot" target="_blank" rel="noreferrer">Explore my GitHub <span>↗</span></a><a class="button button-outline-light" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Connect on LinkedIn <span>↗</span></a></div></div>
+      <div class="cta-side"><div class="cta-side-label">PROJECT</div><strong>Airline Route &<br>Operational Performance</strong><span>Independent analytics study</span><div class="cta-line"></div><span class="cta-side-label">TOOLS</span><div class="tool-pills"><span>Python</span><span>Pandas</span><span>Excel</span><span>Power BI</span></div></div>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">A</span><span>ANALYTICS<span class="brand-light"> / PORTFOLIO</span></span></a><span>Independent project · Public data only · No affiliation with ValueJet</span><a href="#top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
